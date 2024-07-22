@@ -40,6 +40,8 @@ export default function HomePage() {
           <div className="order-1 md:order-2">
             <AspectRatio ratio={1}>
               <Image
+                // TODO
+                // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
                 src={Placeholder}
                 alt="Placeholder"
                 fill
