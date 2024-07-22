@@ -1,4 +1,4 @@
-import { MapPinIcon } from "lucide-react";
+import { MailIcon, MapPinIcon, PhoneCallIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "~/components/header";
@@ -67,12 +67,10 @@ export default function HomePage() {
               className="mx-6 hidden lg:block"
             />
             <div className="hidden flex-grow items-center lg:flex">
-              <MapPinIcon className="h-16 w-16" />
+              <PhoneCallIcon className="h-16 w-16" />
               <div className="ml-2">
-                <h4 className="text-2xl font-bold">Pay Us a Visit</h4>
-                <p className="text-sm">
-                  Union St, Seattle, WA 98101, United States
-                </p>
+                <h4 className="text-2xl font-bold">Give Us a Call</h4>
+                <p className="text-sm">(110) 1111-1010</p>
               </div>
             </div>
             <Separator
@@ -80,12 +78,10 @@ export default function HomePage() {
               className="mx-6 hidden lg:block"
             />
             <div className="hidden flex-grow items-center lg:flex">
-              <MapPinIcon className="h-16 w-16" />
+              <MailIcon className="h-16 w-16" />
               <div className="ml-2">
-                <h4 className="text-2xl font-bold">Pay Us a Visit</h4>
-                <p className="text-sm">
-                  Union St, Seattle, WA 98101, United States
-                </p>
+                <h4 className="text-2xl font-bold">Send Us a Message</h4>
+                <p className="text-sm">Contact@HydraVTech.com</p>
               </div>
             </div>
           </div>
